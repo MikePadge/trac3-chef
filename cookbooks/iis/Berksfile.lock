@@ -1,0 +1,33 @@
+DEPENDENCIES
+  iis
+    path: .
+    metadata: true
+  test
+    path: test/cookbooks/test
+
+GRAPH
+  build-essential (8.0.3)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  compat_resource (12.19.0)
+  dmg (4.0.0)
+  git (6.1.0)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  iis (6.7.62)
+    git (>= 0.0.0)
+    windows (>= 2.0.0)
+    windows_firewall (>= 0.0.0)
+  mingw (2.0.1)
+    seven_zip (>= 0.0.0)
+  ohai (5.1.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  test (0.1.0)
+    iis (>= 0.0.0)
+  windows (3.1.1)
+    ohai (>= 4.0.0)
+  windows_firewall (3.0.2)
+  yum-epel (2.1.2)
+    compat_resource (>= 12.16.3)

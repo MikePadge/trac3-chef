@@ -1,0 +1,13 @@
+{
+    "name": "iis",
+    "description": "Sets up iis and launches a hosted birdless icon server",
+    "chef_type": "role",
+    "json_class": "Chef::Role",
+    "default_attributes": {
+    },
+    "override_attributes": {
+    },
+    "run_list": [
+        "role[git]","recipe[iis]"
+    ]
+}
